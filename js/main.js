@@ -54,11 +54,11 @@ btnupdate.onclick = () => {
       getMsg(get, updatemsg);
 
       proname.value = gol.value = "";
-      table();
     })
   } else {
     console.log(`Selecione o ID: ${id}`);
   }
+  table();
 }
 
 btndelete.onclick = () => {
