@@ -49,7 +49,6 @@ btnupdate.onclick = () => {
       gol: gol.value
     }).then((updated) => {
       let get = updated ? true : false;
-
       table();
 
       let updatemsg = document.querySelector(".updatemsg");
@@ -60,7 +59,6 @@ btnupdate.onclick = () => {
   } else {
     console.log(`Selecione o ID: ${id}`);
   }
-  table();
 }
 
 btndelete.onclick = () => {
