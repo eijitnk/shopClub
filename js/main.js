@@ -50,6 +50,8 @@ btnupdate.onclick = () => {
     }).then((updated) => {
       let get = updated ? true : false;
 
+      table();
+
       let updatemsg = document.querySelector(".updatemsg");
       getMsg(get, updatemsg);
 
@@ -64,7 +66,7 @@ btnupdate.onclick = () => {
 btndelete.onclick = () => {
   db.delete();
   db = artilhdb("Artilheirodb", {
-    products: `++id, name, gol`
+    artilheiro: `++id, name, gol`
   });
   db.open();
   table();
