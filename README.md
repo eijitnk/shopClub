@@ -1,2 +1,2 @@
-# shopClubFutebol
-Shop Club Futebol
+# Sem Direção
+Sem Direção Futebol
